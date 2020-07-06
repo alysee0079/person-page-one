@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Home from './views/home/Home';
+import 'normalize.css'
+import Layout from './common/layout/Layout'
 
 ReactDOM.render(
-  <Home />,
+  <Layout />,
   document.getElementById('root')
 )

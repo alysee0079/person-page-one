@@ -1,0 +1,10 @@
+#footer-wrapper {
+  color: #9195a3;
+  font-size: 12px;
+  height: 40px;
+  background-color: #ddd;
+}
+#footer-wrapper .bottom-layer-right a {
+  color: #9195a3;
+  text-decoration: none;
+}

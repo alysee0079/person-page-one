@@ -1,0 +1,19 @@
+.home-wrapper {
+
+}
+.card-ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-inline-start: 0;
+}
+.card-item {
+  float: left;
+  list-style: none;
+  margin-top: 20px;
+  width: 30%;
+}
+.ant-card {
+  margin: 10px;
+}
