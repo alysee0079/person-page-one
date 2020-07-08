@@ -1,0 +1,8 @@
+.detail-wrapper {
+  min-height: calc(100% - 120px);
+  padding: 20px 50px;
+}
+.site-page-header {
+  border-bottom: 1px solid rgb(235, 237, 240);
+  padding: 20px 0;
+}
