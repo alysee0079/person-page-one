@@ -1,0 +1,97 @@
+.animal-fight-wrapper {
+  width: 700px;
+  /* margin: 0 auto; */
+  height: 500px;
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.fight-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.animal-ul {
+  overflow: hidden;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+.animal-item {
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 14px;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.animal-item.active {
+}
+.start-btn, .reload-btn {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.reload-btn {
+  margin-right: 80px;
+  font-size: 14px;
+}
+.animal-icon svg {
+  width: 40px;
+  height: 40px;
+}
+.animal-item:hover .animal-icon svg {
+  fill: red;
+}
+.npc-area svg {
+  float: right;
+}
+.player-area svg, .npc-area svg {
+  width: 100px;
+  height: 100px;
+}
+.game-info-area {
+  width: 370px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: -400px;
+  overflow-y: auto;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+p {
+  margin-bottom: 0;
+}
+.hero-height-light {
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+}
+.skill-height-light {
+  font-size: 18px;
+  font-weight: bold;
+  color: darkgoldenrod;
+}
+.hit-height-light {
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+}
+.info-item {
+  font-size: 16px;
+}
+.time-line {
+  font-weight: bold;
+}
+.disable {
+
+}

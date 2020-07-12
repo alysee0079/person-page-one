@@ -14,7 +14,14 @@ code {
 }
 html, body {
   height: 100%;
-  min-width: 1280px;
+  min-width: 1060px;
+}
+ul {
+  padding-inline-start: 0;
+  margin-bottom: 0;
+}
+li {
+  list-style: none;
 }
 #root {
   height: 100%;
