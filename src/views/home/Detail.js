@@ -3,6 +3,7 @@ import './Detail.css'
 import { PageHeader } from 'antd'
 
 export default function Detail (props) {
+  // dddd
   let content = ''
   console.log(props.match.params.id)
   switch (Number(props.match.params.id)) {
