@@ -5,7 +5,15 @@ const { Footer: FooterAnt } = Layout;
 
 export default function Footer () {
   return (
-    <FooterAnt style={{ textAlign: 'center' }}>粤ICP备20055632号</FooterAnt>
+    <div className="footer-wrapper">
+      <a className="link-a" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030402003909">
+        <img className="img-s" src={require('../../assets/images/ba-pic.png')}/>
+        <p className="num-s">粤公网安备 44030402003909号</p>
+      </a>
+    </div>
+
+    
+    // <FooterAnt style={{ textAlign: 'center' }}>粤ICP备20055632号</FooterAnt>
     // <footer id="footer-wrapper">
     //   <p>
     //     ICP备案/许可证编号:
