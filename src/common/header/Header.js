@@ -18,6 +18,9 @@ export default function Header () {
         <Menu.Item key="3">
           <Link to="/share">分享</Link>
         </Menu.Item>
+        <Menu.Item key="4">
+          <Link to="/wow">wow</Link>
+        </Menu.Item>
       </Menu>
     </Headers>
   )

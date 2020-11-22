@@ -71,8 +71,8 @@ const animalData = [
     label: '鼠',
     active: false,
     icon: 'mouse',
-    skill: '偷大米',
-    skillDesc: '在敌人偷到十斤泰国香米！',
+    skill: '吱吱',
+    skillDesc: '吱吱！',
     CE: 1,
     HP: 1
   }
